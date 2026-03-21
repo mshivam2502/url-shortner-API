@@ -1,8 +1,3 @@
-FROM ubuntu:latest
-LABEL authors="HP"
-
-ENTRYPOINT ["top", "-b"]
-
 FROM openjdk:17-jdk-slim
 
 WORKDIR /app
