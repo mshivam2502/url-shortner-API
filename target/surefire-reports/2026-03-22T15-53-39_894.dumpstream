@@ -1,0 +1,5 @@
+# Created at 2026-03-22T15:53:40.089
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Programming\2026 Goals\URLShortner\url-shortner\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

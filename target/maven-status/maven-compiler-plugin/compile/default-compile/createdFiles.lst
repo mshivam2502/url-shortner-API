@@ -5,3 +5,4 @@ com\url_shortener\repository\UrlRepository.class
 com\url_shortener\controller\UrlController.class
 com\url_shortener\models\entity\UrlMapping.class
 com\url_shortener\service\UrlService.class
+com\url_shortener\controller\HTMLController.class
