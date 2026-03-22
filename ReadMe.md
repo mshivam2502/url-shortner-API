@@ -94,7 +94,7 @@ http://localhost:8080
 ```
 {
   "url": "https://example.com",
-  "customCode": "optional-code"
+  "customUrl": "optional-code"
 }
 ```
 
@@ -119,6 +119,8 @@ http://localhost:8080/abc123
 ```
 
 ➡️ Redirects to original URL
+
+➡️ Each URL has a validity of 24 Hours
 
 ---
 

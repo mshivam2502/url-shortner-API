@@ -20,7 +20,12 @@ public class UrlController {
 
     @PostMapping(path = "/shorten")
     public ResponseEntity<?> shorten(@RequestBody Map<String, String> request) {
-        String shortCode = urlService.shortenUrl(request.get("url"), request.get("shortCode"));
+        String shortCode = "";
+        if(request.get("customUrl")!=null) {
+            shortCode = urlService.shortenUrl(request.get("url"), request.get("customUrl"));
+        }else{
+            shortCode = urlService.shortenUrl(request.get("url"), "");
+        }
         return ResponseEntity.ok().body(Map.of("shortCode",shortCode));
     }
 
